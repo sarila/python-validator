@@ -5,6 +5,7 @@
 
 
 dict_to_validate = {"age": 30, "name": "This is Sarila", "covid": False}
+# use min_length and max_length for string validation and min_value and max_value for integer datatype
 rules = {"min_length" : 6, "max_length" : 8 , "min_value": 18, "max_value": 38}
 
 result = []
